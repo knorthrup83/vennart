@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+<style>
+body {
+  background-color: hsl(244, 14%, 30%);  
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin: 0px;
+  padding: 20px;
+  font-family: Helvetica;
+  font-size: 50px;
+}
+h2 {
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-family: Helvetica;
+}
+h3 {
+  padding: 20px;
+  font-size: 30px;
+}
+#image {
+  max-width: 40%;
+}
+#img-div {
+  display: block;
+  padding: 10px;
+  background-color: hsl(291, 14%, 70%);  
+}
+#img-caption {
+  color: hsl(291, 14%, 0%);
+}
+
+.container1 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 3fr 2fr ;
+  text-align: center;
+  margin-bottom: 3px;
+}
+.container2 {
+  display: grid;
+  grid-gap: 10px;
+  margin: auto;  
+  background: white;
+  text-align: center;
+  grid-template-columns: 1fr 3fr 2fr ;
+  color: black;
+}
+
+#tribute-info {
+  max-width: 50%;
+  margin: auto;
+}
+
+#discography {
+  max-width: 40%;
+  margin: auto;
+}
+#cont_header {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#v_quote {
+  font-style: italic;
+  font-size: 23px;
+  margin: 30px;
+}
+
+#more_info {
+  font-size: 20px;
+  margin: 30px;
+}
+</style>
+
+<main id="main">
+  <header>
+  <h1 id="title"> Mike Vennart </h1>
+  <h2> <i>Songwriter and Guitar Enthusiast </i></h2>
+</header>
+
+
+  <div id="img-div">
+    <img src="https://pbs.twimg.com/media/D5E3mfYW4AAfd7r.jpg:large" id="image">
+    <p id="img-caption">
+      Mike Vennart, right, performing at The Forum in Leicester, England on April 26, 2019.</p>
+  </div>
+    <div id="tribute-info">
+      <h3>Mike Vennart's Musical Endeavors</h3>
+      <p> Mike was a founding member of Manchester-based progressive rock band "Oceansize", which was active from 1998 until 2011. Since their breakup, Vennart has been a part of many other bands, the first of which he formed with former Oceansize partner Gambler. "British Theatre" are an electronica-alternative band. He and Gambler both later joined existing band "Biffy Clyro" as touring members, though they do not participate in writing the music. He also creates music under the moniker "Vennart", for which he is currently touring
+    </p>
+    </div>
+
+    <h3>Below is a discography of all Mike Vennart's album releases:</h3>
+  
+  <div id="discography" class="container1">
+
+    <div id="cont_header">Year of Release</div>
+    <div id="cont_header">Album Title</div>
+    <div id="cont_header">Band Name</div>
+
+    <div>2003</div> <div>Effloresce</div> <div>Oceansize</div>
+    <div>2005</div> <div>Everyone Into Position</div> <div>Oceansize</div>
+    <div>2007</div> <div>Frames</div> <div>Oceansize</div>
+    <div>2010</div> <div>Self Preserved While the Bodies Float Up</div> <div>Oceansize</div>
+    <div>2015</div> <div>The Demon Joke</div> <div>Vennart</div>
+    <div>2016</div> <div>Mastery</div> <div>British Theatre</div>
+    <div>2018</div> <div>To Cure a Blizzard Upon a Plastic Sea</div> <div>Vennart</div>
+</div>
+  
+  <div id="v_quote"> "There are prophecies you'll only prophesize over niceties and gin. And now you're asking, I don't know where to begin."
+    <br><br>- Mike Vennart, "Silent/Transparent"
+  </div>
+  
+  <div id="more_info">
+    For more information on Mike Vennart, you can visit 
+    <a href="http://www.vennart.com/" alt="Link to vennart.com" style="color:yellow" id="tribute-link" target="_blank">
+          his website <a> or visit 
+    <a href="https://en.wikipedia.org/wiki/Oceansize" alt="Link to Oceansize Wikipedia page" style="color:yellow" target="_blank">
+         the Wikipedia page for Oceansize.</a>
+  </div>
+    
+</main>
+</html>
